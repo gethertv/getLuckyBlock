@@ -1,0 +1,322 @@
+luckyblock:
+  material: PLAYER_HEAD
+  url: https://textures.minecraft.net/texture/5ba09dd4b156f4ce2e897f4c36abdbd46a9593a618458616e8da39a10a853f6
+  displayname: '&6Luckyblock'
+  lore:
+    - '&7'
+  glass: YELLOW_STAINED_GLASS
+
+#    SPAWN_ENTITY,    SPAWN_TNT,    DROP_ITEM,    TRAP,    LIGHTNING
+drop:
+  '1':
+    type: SPAWN_ENTITY
+    entity:
+      - ZOMBIE:1
+      - SKELETON:1
+    items: []
+  '2':
+    type: SPAWN_TNT
+    entity: []
+    items: {}
+  '4':
+    type: TRAP
+    entity: []
+    items: {}
+  '6':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: DIAMOND_HELMET
+        amount: 1
+        enchants:
+          - DURABILITY:1
+          - PROTECTION_ENVIRONMENTAL:2
+  '7':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: DIAMOND_CHESTPLATE
+        amount: 1
+        enchants:
+          - DURABILITY:2
+          - PROTECTION_ENVIRONMENTAL:2
+  '8':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: DIAMOND_LEGGINGS
+        amount: 1
+        enchants:
+          - DURABILITY:2
+          - PROTECTION_ENVIRONMENTAL:2
+  '9':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: DIAMOND_BOOTS
+        amount: 1
+        enchants:
+          - DURABILITY:1
+          - PROTECTION_ENVIRONMENTAL:2
+  '10':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: FISHING_ROD
+        amount: 1
+        enchants: []
+  '11':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: ENDER_PEARL
+        amount: 3
+        enchants: []
+  '12':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: SHIELD
+        amount: 1
+        enchants: []
+  '13':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: IRON_PICKAXE
+        amount: 1
+        enchants:
+          - DIG_SPEED:2
+          - DURABILITY:1
+  '14':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: IRON_AXE
+        amount: 1
+        enchants:
+          - DIG_SPEED:2
+          - DURABILITY:1
+  '15':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: IRON_SHOVEL
+        amount: 1
+        enchants:
+          - DIG_SPEED:2
+          - DURABILITY:1
+  '16':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: DIAMOND_SWORD
+        amount: 1
+        enchants:
+          - DAMAGE_ALL:2
+          - DURABILITY:1
+  '17':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: BOW
+        amount: 1
+        enchants: []
+      '2':
+        material: ARROW
+        amount: 8
+        enchants: []
+  '18':
+    type: SPAWN_ENTITY
+    entity:
+      - ZOMBIE:2
+      - SKELETON:1
+    items: []
+  '19':
+    type: LIGHTNING
+    entity: []
+    items: []
+  '20':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: ARROW
+        amount: 16
+        enchants: []
+  '21':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: DIAMOND
+        amount: 3
+        enchants: []
+      '2':
+        material: IRON_INGOT
+        amount: 5
+        enchants: []
+  '22':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: STONE
+        amount: 8
+        enchants: []
+      '2':
+        material: OAK_LOG
+        amount: 4
+        enchants: []
+  '23':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: GOLDEN_APPLE
+        amount: 2
+        enchants: []
+  '24':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: BREAD
+        amount: 8
+        enchants: []
+  '26':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: WATER_BUCKET
+        amount: 1
+        enchants: []
+  '27':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: LAVA_BUCKET
+        amount: 1
+        enchants: []
+  '28':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: TNT
+        amount: 4
+        enchants: []
+      '2':
+        material: FLINT_AND_STEEL
+        amount: 1
+        enchants: []
+  '29':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: COBWEB
+        amount: 2
+        enchants: []
+  '30':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: TRIDENT
+        amount: 1
+        enchants: []
+  '31':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: TOTEM_OF_UNDYING
+        amount: 1
+        enchants: []
+  '32':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: ENCHANTED_GOLDEN_APPLE
+        amount: 1
+        enchants: []
+  '33':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: COBBLESTONE
+        amount: 64
+        enchants: []
+  '34':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: ENCHANTING_TABLE
+        amount: 1
+        enchants: []
+      '2':
+        material: EXPERIENCE_BOTTLE
+        amount: 64
+        enchants: []
+  '35':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: DIAMOND
+        amount: 8
+        enchants: []
+  '36':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: DIAMOND
+        amount: 16
+        enchants: []
+  '37':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: IRON_INGOT
+        amount: 16
+        enchants: []
+  '38':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: IRON_INGOT
+        amount: 8
+        enchants: []
+  '39':
+    type: DROP_ITEM
+    entity: []
+    items:
+      '1':
+        material: ELYTRA
+        amount: 1
+        enchants: []
+      '2':
+        material: FIREWORK_ROCKET
+        amount: 16
+        enchants: []
