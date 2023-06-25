@@ -3,5 +3,5 @@ version: '${project.version}'
 main: me.gethertv.luckyblock.LuckyBlock
 api-version: 1.16
 commands:
-  luckyblock:
+  getluckyblock:
     aliases: [ lblock, lb ]

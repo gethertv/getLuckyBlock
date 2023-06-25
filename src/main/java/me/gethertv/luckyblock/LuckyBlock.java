@@ -55,7 +55,7 @@ public final class LuckyBlock extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new PlaceBlock(), this);
         getServer().getPluginManager().registerEvents(new TntExplosion(), this);
 
-        getCommand("luckyblock").setExecutor(new LuckyBlockCmd());
+        getCommand("getluckyblock").setExecutor(new LuckyBlockCmd());
 
     }
 
